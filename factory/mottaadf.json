@@ -1,0 +1,9 @@
+{
+	"name": "mottaadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b051746f-d3da-4451-b311-551abc7d42b6",
+		"tenantId": "288ffd2c-f09c-4154-ad8e-9c674ebe9dfa"
+	}
+}
