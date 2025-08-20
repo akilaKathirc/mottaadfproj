@@ -1,0 +1,6 @@
+{
+	"name": "azureir",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
