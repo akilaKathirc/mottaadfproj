@@ -1,0 +1,21 @@
+{
+	"name": "mssqlonpremise",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "cheng\\SQLEXPRESS,1433",
+			"database": "AdventureWorks2008R2",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "akila",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMzU1NTcwMi1lNzliLTQwYmMtOWZiNi0yNWJhN2U5YjExODgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "azureir",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
