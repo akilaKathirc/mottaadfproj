@@ -1,0 +1,12 @@
+{
+	"name": "lookupforonpremmssql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mssqlonpremise",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
