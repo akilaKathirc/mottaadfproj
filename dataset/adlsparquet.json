@@ -1,0 +1,19 @@
+{
+	"name": "adlsparquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoragemottasink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
