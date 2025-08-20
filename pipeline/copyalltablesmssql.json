@@ -44,6 +44,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('Lookup onprem mssql').output.value",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data from onprem sql",
