@@ -100,6 +100,10 @@
 										"SchemaName": {
 											"value": "@item().SchemaName",
 											"type": "Expression"
+										},
+										"TableName": {
+											"value": "@item().TableNAme",
+											"type": "Expression"
 										}
 									}
 								}
