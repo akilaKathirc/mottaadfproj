@@ -95,7 +95,13 @@
 							"outputs": [
 								{
 									"referenceName": "adlsparquet",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"SchemaName": {
+											"value": "@item().SchemaName",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
