@@ -1,6 +1,5 @@
 {
 	"name": "mssqlonpremise",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "SqlServer",
@@ -11,11 +10,20 @@
 			"trustServerCertificate": true,
 			"authenticationType": "SQL",
 			"userName": "akila",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMzU1NTcwMi1lNzliLTQwYmMtOWZiNi0yNWJhN2U5YjExODgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "akvmssqlonprem",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlpassword",
+				"secretVersion": "0e3d95d1b2ab47a89079a4616e1f112e"
+			}
 		},
 		"connectVia": {
 			"referenceName": "azureir",
 			"type": "IntegrationRuntimeReference"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
