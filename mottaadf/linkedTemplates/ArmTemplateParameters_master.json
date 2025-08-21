@@ -8,6 +8,12 @@
 		"AzureDataLakeStoragemottasink_accountKey": {
 			"value": ""
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDataLakeStoragemottasink_properties_typeProperties_url": {
+			"value": "https://mottadeproj.dfs.core.windows.net/"
+		},
 		"akvmssqlonprem_properties_typeProperties_baseUrl": {
 			"value": "https://mottakv.vault.azure.net/"
 		},
@@ -19,9 +25,6 @@
 		},
 		"mssqlonpremise_properties_typeProperties_userName": {
 			"value": "akila"
-		},
-		"AzureDataLakeStoragemottasink_properties_typeProperties_url": {
-			"value": "https://mottadeproj.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
