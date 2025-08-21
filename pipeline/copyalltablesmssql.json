@@ -117,7 +117,7 @@
 				}
 			},
 			{
-				"name": "bron",
+				"name": "bronze to silver",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
@@ -134,7 +134,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
