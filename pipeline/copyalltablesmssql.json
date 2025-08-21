@@ -144,7 +144,7 @@
 				}
 			},
 			{
-				"name": "Notebook1",
+				"name": "silver to gold",
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
